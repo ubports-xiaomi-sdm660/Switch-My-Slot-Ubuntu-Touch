@@ -2,7 +2,7 @@
 
 Switch My Slot is an Ubuntu Touch app that helps you switch between android system A & system B slots if you are dualbooting with Android OS on an Android A/B device. This app saves you from the hassle of needing to use ssh/terminal/twrp while wanting to switch to another Android slot.
 
-Library used: bootctl
+Library being manipulated: bootctl
 
 What is A/B partitioning?
 
