@@ -11,8 +11,7 @@ https://source.android.com/devices/tech/ota/ab
 https://www.xda-developers.com/how-a-b-partitions-and-seamless-updates-affect-custom-development-on-xda/
 
 ## Requirements
-1. Device with A/B partitions
-2. If your target device is not Xiaomi Mi A2 (jasmine_sprout) you need to compile your own bootctl library (+ set it as executable) and put it into /bin/ and finally recompile the project.
+* Device with A/B partitions
 
 [Checkout Android version](https://github.com/shoukolate/Switch-My-Slot-Android)
 
