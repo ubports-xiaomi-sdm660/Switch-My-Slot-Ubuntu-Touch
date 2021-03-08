@@ -1,6 +1,6 @@
 {
     "name": "switch-my-slot.shouko",
-    "description": "Switch My Slot is a SailfishOS app that helps you switch between android system A & system B slots if you are dualbooting with Android OS on an Android A/B device. This app saves you from the hassle of needing to use ssh/ terminal/ twrp while wanting to switch to another Android slot.",
+    "description": "Switch My Slot is an app that helps you switch between android system A & system B slots if you are dualbooting with Android OS on an Android A/B device. This app saves you from the hassle of needing to use ssh/ terminal/ twrp while wanting to switch to another Android slot.",
     "architecture": "@CLICK_ARCH@",
     "title": "Switch My Slot",
     "hooks": {
@@ -9,7 +9,7 @@
             "desktop":  "switch-my-slot.desktop"
         }
     },
-    "version": "0.2",
+    "version": "0.3",
     "maintainer": "Shouko <shouko@airmail.cc>",
     "framework" : "ubuntu-sdk-16.04.5"
 }
