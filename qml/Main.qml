@@ -60,6 +60,7 @@ MainView {
             }
             id: switchSlotButton
             text: i18n.tr('Switch Slot')
+            color: UbuntuColors.green
             onClicked: {
                     python.switchSlotFunc();
                 }
