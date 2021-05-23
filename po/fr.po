@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the switch-my-slot.shouko package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: switch-my-slot.shouko\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-08 16:25+0000\n"
+"PO-Revision-Date: 2021-03-14 19:55+0000\n"
+"Last-Translator: Anne017 <anneonyme017@openmailbox.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../qml/Main.qml:21 switch-my-slot.desktop.in.h:1
+msgid "Switch My Slot"
+msgstr "Change ma partition"
+
+#: ../qml/Main.qml:29
+msgid "HAL Version: "
+msgstr "Version de HAL: "
+
+#: ../qml/Main.qml:37
+msgid "App Version: v0.4"
+msgstr "Version de l'application: v0.4"
+
+#: ../qml/Main.qml:45
+msgid "Number of slots: "
+msgstr "Nombre de partitions: "
+
+#: ../qml/Main.qml:53
+msgid "Current slot suffix: "
+msgstr "Suffixe de la partition actuelle: "
+
+#: ../qml/Main.qml:62
+msgid "Switch Slot"
+msgstr "Changer de partition"
+
+#: ../qml/Main.qml:75
+msgid "Current slot: "
+msgstr "Partition actuelle: "
+
+#: ../qml/Main.qml:86
+msgid "Developed by Shou"
+msgstr "Développé par Shou"

@@ -1,0 +1,15 @@
+{
+    "name": "switch-my-slot.shouko",
+    "description": "Switch My Slot is an app that helps you switch between android system A & system B slots if you are dualbooting with Android OS on an Android A/B device. This app saves you from the hassle of needing to use ssh/ terminal/ twrp while wanting to switch to another Android slot.",
+    "architecture": "@CLICK_ARCH@",
+    "title": "Switch My Slot",
+    "hooks": {
+        "switch-my-slot": {
+            "apparmor": "switch-my-slot.apparmor",
+            "desktop":  "switch-my-slot.desktop"
+        }
+    },
+    "version": "0.4",
+    "maintainer": "Shou <shou@disroot.org>",
+    "framework" : "ubuntu-sdk-16.04.5"
+}
