@@ -27,8 +27,8 @@ msgid "HAL Version: "
 msgstr "HAL-versie: "
 
 #: ../qml/Main.qml:37
-msgid "App Version: v0.4"
-msgstr "Appversie: 0.4"
+msgid "App Version: v0.5"
+msgstr "Appversie: 0.5"
 
 #: ../qml/Main.qml:45
 msgid "Number of slots: "
@@ -47,5 +47,5 @@ msgid "Current slot: "
 msgstr "Huidige sleuf:"
 
 #: ../qml/Main.qml:86
-msgid "Developed by Shou"
-msgstr "Ontwikkeld door Shou"
+msgid "Developed by Shoko"
+msgstr "Ontwikkeld door Shoko"

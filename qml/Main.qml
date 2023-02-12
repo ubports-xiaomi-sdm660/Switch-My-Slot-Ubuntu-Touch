@@ -1,5 +1,5 @@
 import QtQuick 2.7
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 //import QtQuick.Controls 2.2
 import QtQuick.Layouts 1.3
 import Qt.labs.settings 1.0
@@ -34,7 +34,7 @@ MainView {
                 top: halVersionLabel.bottom
             }
             id: appVersionLabel
-            text: i18n.tr('App Version: v0.4')
+            text: i18n.tr('App Version: v0.5')
         }
 
         Label {
@@ -60,7 +60,7 @@ MainView {
             }
             id: switchSlotButton
             text: i18n.tr('Switch Slot')
-            color: UbuntuColors.green
+            color: LomiriColors.green
             onClicked: {
                     python.switchSlotFunc();
                 }
@@ -83,7 +83,7 @@ MainView {
               bottomMargin: units.gu(2)
             }
             id: developerLabel
-            text: i18n.tr('Developed by Shou')
+            text: i18n.tr('Developed by Shoko')
             verticalAlignment: Label.AlignVCenter
             horizontalAlignment: Label.AlignHCenter
         }

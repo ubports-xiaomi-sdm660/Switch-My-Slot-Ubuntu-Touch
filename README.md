@@ -32,6 +32,6 @@ If you use this app on another device, please let me know.
 
 ## License
 
-Copyright (C) 2020 - 2021  Shou
+Copyright (C) 2020 - 2023  Shoko
 
 Licensed under the MIT license

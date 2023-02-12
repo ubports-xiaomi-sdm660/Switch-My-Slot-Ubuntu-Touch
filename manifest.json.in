@@ -9,7 +9,7 @@
             "desktop":  "switch-my-slot.desktop"
         }
     },
-    "version": "0.4",
-    "maintainer": "Shou <shou@disroot.org>",
-    "framework" : "ubuntu-sdk-16.04.5"
+    "version": "0.5",
+    "maintainer": "Shoko <shou@disroot.org>",
+    "framework" : "ubuntu-sdk-20.04"
 }
