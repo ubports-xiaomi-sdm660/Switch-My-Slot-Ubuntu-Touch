@@ -34,7 +34,7 @@ MainView {
                 top: halVersionLabel.bottom
             }
             id: appVersionLabel
-            text: i18n.tr('App Version: v0.5')
+            text: i18n.tr('App Version: v0.6')
         }
 
         Label {

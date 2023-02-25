@@ -13,20 +13,20 @@ pyotherside.send('noOfSlots', output)
 
 stream = os.popen(prefix + 'get-current-slot')
 output = stream.read()
-temp = output
+temp = (int(output))
 
-if temp.__eq__(0):
+if (temp == 0):
     pyotherside.send('currentSlot', "A")
 
-elif s1.__eq__(1):
+elif (temp == 1):
     pyotherside.send('currentSlot', "B")
 
-stream = os.popen(prefix + 'get-suffix ' + temp)
+stream = os.popen(prefix + 'get-suffix ' + str(temp))
 output = stream.read()
 pyotherside.send('currentSlotSuffix', output)
 
 def switchSlotFunc():
-    if temp.__eq__(0):
-        os.system(prefix + 'set-active-boot-slot ' + '1 && sudo reboot') # will only reboot if no password is set on device
-    elif temp.__eq__(1):
-        os.system(prefix + 'set-active-boot-slot ' + '0 && sudo reboot')
+    if (temp == 0):
+        os.system(prefix + 'set-active-boot-slot 1 && sudo reboot') # will only reboot if no password is set on device
+    elif (temp == 1):
+        os.system(prefix + 'set-active-boot-slot 0 && sudo reboot')

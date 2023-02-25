@@ -25,8 +25,8 @@ msgid "HAL Version: "
 msgstr "Version de HAL: "
 
 #: ../qml/Main.qml:37
-msgid "App Version: v0.5"
-msgstr "Version de l'application: v0.5"
+msgid "App Version: v0.6"
+msgstr "Version de l'application: v0.6"
 
 #: ../qml/Main.qml:45
 msgid "Number of slots: "
